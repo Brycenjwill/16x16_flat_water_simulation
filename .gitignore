@@ -1,0 +1,35 @@
+# Build artifacts
+*.o
+*.out
+*.a
+*.so
+
+# Executables
+sim
+a.out
+
+# Dependency/compile cache
+*.d
+*.dep
+
+# Editor junk
+*.swp
+*.swo
+*~
+.DS_Store
+
+# VSCode
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# Build directories
+build/
+bin/
+obj/
+
+# SDL2 on Windows often drops these
+*.dll
+*.lib
+*.pdb
