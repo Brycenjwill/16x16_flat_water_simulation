@@ -285,7 +285,7 @@ int main() {
       for (int column = 0; column < GRID_SIZE; column ++) {
         if (display[row][column] == 1) {
           // Draw water
-          SDL_SetRenderDrawColor(ren, 0, 120, 255, 255);
+          SDL_SetRenderDrawColor(ren, 28, 163,236, 255);
           SDL_Rect r = { column_to_x_val(column), row_to_y_val(row), WATER_PIXEL_SIZE, WATER_PIXEL_SIZE };
           SDL_RenderFillRect(ren, &r);
         }
